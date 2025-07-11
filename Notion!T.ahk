@@ -2,8 +2,8 @@
 notionProcess := "Notion.exe"
 notionPath := "C:\Users\luowei\AppData\Local\Programs\Notion\Notion.exe"
 
-; 监听 Alt + N
-!N::
+; 监听 Alt + T
+!T::
     ; 检查 Notion 是否在运行
     if WinExist("ahk_exe " . notionProcess)
     {
