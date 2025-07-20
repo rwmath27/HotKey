@@ -72,9 +72,7 @@ return
     SendInput {Ctrl down}9{Ctrl up}
 return
 
-#0::
-    SendInput {Ctrl down}0{Ctrl up}
-return
+
 
 ; Ctrl+数字键 发送 Win+数字键 (启动任务栏程序)
 ^1::
@@ -113,9 +111,7 @@ return
     SendInput {LWin down}9{LWin up}
 return
 
-^0::
-    SendInput {LWin down}0{LWin up}
-return
+
 
 ; ============================================
 ; 脚本启动提示
